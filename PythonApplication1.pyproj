@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>fd208e75-b7a3-4d8d-95c4-cae870637f29</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Week3\ReadVideo.py</StartupFile>
+    <StartupFile>Week4\CBC-AES.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -57,8 +57,13 @@
     <Compile Include="Week3\ReadVideo.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Week4\CBC-AES.py" />
+    <Compile Include="Week4\ProblemSet.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Week4\" />
     <Folder Include="Week3\" />
     <Folder Include="Week2\" />
   </ItemGroup>
